@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+        
+}
+html {
+
+    font-size: 16;
+}
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    background-color: hsl(0,7%,22%);
+    font-size: 25px;
+}
+
+.profile{
+    background-color: hsl(0, 6%, 20%);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.profile__avatar{
+    border-radius: 50% ;
+    height: 100px;
+    width: 100px;
+ 
+}
+
+.profile__name{
+    font-size: 18px;
+    color: aqua;
+    text-align: center;
+}
+.profile__city {
+    font-size: 1.125em;
+    text-align: center;
+    color: aqua;
+}
+section button > p{
+    font-size: 30px;
+}
+
+section button:first-child{
+    background-color:aqua;
+}
+
+button{
+    border-radius: 20px;
+}
+
+.dos{
+    display: flex;
+    flex-direction: column;
+}
